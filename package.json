@@ -1,0 +1,21 @@
+{
+  "name": "exporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node -r dotenv/config main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@team-rocos/rocos-js-sdk": "^2.5.0",
+    "rxjs": "^6.6.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
